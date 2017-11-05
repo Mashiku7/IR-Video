@@ -1,0 +1,26 @@
+{% extends "common/page_base.html" %}
+
+{% block content %}
+
+<div id='header_container'>
+  <h1 id='main_title'>IR<span id="video">Video</span><span id="tagline">Add a video to interact with</h4></h1>
+  <form id="addvideo" action="/add_video" method="POST" enctype="">
+    <div>
+
+      <input id="url-box" class="" type="text" name="url" placeholder="YouTube URL">
+      <input id="big-button" type="submit" value="Process">
+      
+      <a href="/ask" id='big-button'>
+        <input id="big-button" type="submit" value="Ask">
+      </a>
+      
+    </div>
+  </form>
+  <div id="progress" class="progress" style="display: none;"></div>
+  
+  <iframe src="https://www.youtube.com/embed/${youtube_id}?autoplay=1" width="853" height="480" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+
+{% endblock %}

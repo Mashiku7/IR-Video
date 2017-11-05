@@ -1,0 +1,186 @@
+body {
+	background-color: #f7f2f3;
+}
+
+p, h1, h2, h3 {
+	color: #424242;
+}
+
+form {
+  display: inline;
+}
+
+
+#tagline {
+  font-size: 27px;
+  color: #9E9E9E;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+#progress {
+  margin-right: auto;
+  margin-left: auto;
+  width: 844px;
+  margin-bottom: 20px;
+}
+
+#video {
+  color: #F8F8F8;
+  background-color: #050404;
+  border-radius: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#big-button {
+  color: #424242;
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#url-box {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#main_title {
+  margin: 20px 20px 0px 20px;
+  display: inline-block;
+}
+
+#body_container {
+  text-align: center;
+  width: 100%;
+}
+
+#results_container {
+  width: 902px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  background-color: #F8F8F8;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #9E9E9E;
+}
+
+.result_container {
+  width: 900px;
+  background-color: #F8F8F8;
+  padding: 20px 40px 20px 40px;
+}
+
+.preview, .hover_holder {
+  width: 336px;
+  height: 188px;
+}
+
+.preview_container {
+  width: 336px;
+  height: 188px;
+  display:inline-block;
+}
+
+.hover_holder {
+  height: 6px;
+  background-color: #424242;
+  position: relative;
+}
+
+.hover {
+  vertical-align: top;
+  height: 6px;
+  width: 8px;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.hover_line {
+  background-color: #FFC107;
+  height: 6px;
+  width: 2px;
+} 
+
+#header_container {
+  margin-top: 0px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #F8F8F8;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #9E9E9E;
+}
+
+.vid_deets {
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 15px;
+  width: 464px;
+  height: 194px
+}
+
+.vid_title {
+  overflow: hidden;
+  height: 35px;
+  font-size: 26px;
+}
+
+.vid_username {
+  font-size: 14px;
+  text-align:right;
+}
+
+.vid_desc {
+  overflow: hidden;
+  height: 133px;
+  font-size: 15px;
+}
+
+input {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #9E9E9E;
+  margin-left: auto;
+  margin-right: auto;
+	width: 600px;
+  height: 50px;
+  padding: 10px;
+  margin: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+input,
+input::-webkit-input-placeholder {
+  font-size: 24px;
+}
+
+.hit {
+	max-width: 500px;
+}
+
+.hit-img {
+	width: 200px;
+	/*float: left;
+	clear: both;*/
+}
+
+.hit-text {
+	/*float: right;
+	clear: both;*/
+}
+
+.hit-text > h3 {
+	font-size: 16px;
+}
+
+.hit-text > p {
+	font-color: #E9E9E9;
+}
