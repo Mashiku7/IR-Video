@@ -1,0 +1,5 @@
+worker: run-redis
+
+worker: run-celery
+
+web: python manage.py runserver --debug --reload
